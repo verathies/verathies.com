@@ -1,0 +1,180 @@
+/***GLOBAL STYLES***/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#copyright, #about, footer {
+    clear:both;
+}
+
+.full-width {
+    clear: both;
+}
+
+.half-width {
+    float: left; 
+    width: 700px; 
+}
+
+.third-width {
+    float: left;
+    width: 33.33333%;
+}
+
+
+
+
+/***HEADER***/
+header {
+    background: url('../img/desk.jpg');
+    height: 800px; 
+    background-size: cover; 
+    margin-top: 0;
+    padding-top: 0;
+    overflow: auto;
+
+}
+
+h1 {
+    color: #857885;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    padding: 270px 150px 0px 150px;
+    text-align: center;  
+}
+
+header p {
+    color: #A9A299;
+    font-size: 48px; 
+    padding: 0 280px; 
+    text-align: center;
+    margin: 0 auto; 
+    line-height: 57px;
+}
+
+/***MAIN***/
+/***PORTFOLIO***/
+
+
+
+#portfolio {
+    height: 1450px; 
+} 
+#portfolio h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #857885;
+    padding: 50px 0 100px 0;
+    text-align: center;
+    
+
+}
+#portfolio img {
+    border: 1px solid #b7b7b7;
+    margin: 0 50px 50px 100px; 
+}
+
+#portfolio h3 {
+    color: #857885;
+    font-weight: bold; 
+    font-size: 24px; 
+    margin: 0 auto; 
+}
+
+#portfolio p {
+    color: #A9A299;
+    padding: 0 100px 0 0; 
+}
+/***ABOUT***/
+
+#about {
+    height: 700px;
+    background-color: #F4F1EF;
+    margin: 0 auto; 
+    
+}
+
+#about h2 {
+    color: #857885;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+#about img {
+    border: 1px solid #b7b7b7;
+    margin: 0 50px 0px 100px;  
+}
+
+
+#passion {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#about p {
+    color: #857885;
+    padding: 0 120px 0 25px; 
+    margin-bottom: 0;
+
+}
+/***FOOTER- CONTACT SECTION***/
+
+/***GENERAL STYLE: COLOR***/
+
+#contact h2, p, h3, li, a {
+    color: #F4F1EF;
+}
+
+
+
+/***ITEMS ACCORDING TO HTML STRUCTURE***/
+
+#contact {
+    background-color:  #857885;
+    height: 500px;
+    text-align: center;
+    
+}
+
+#contact h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+#contact h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 25px 25px 25px; 
+}
+
+#contact a {
+    text-decoration: none; 
+}
+#contact p {
+    line-height: 40px;
+    padding: 0 75px;
+}
+
+#contact ul {
+    list-style: none; 
+}
+#contact ul li {
+    display: inline-block;
+    padding: 0 40px 0 0;    
+}
+
+
+/***COPYRIGHT***/ 
+
+#copyright {
+    font-size: 18px; 
+    text-align: center;
+    padding: 70px 20px 0 20px; 
+
+}
