@@ -1,4 +1,4 @@
-/***GLOBAL STYLES***/
+/**********************************************************PAGE1: GLOBAL STYLES ********************************************************************/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,9 +25,9 @@ body {
 
 
 
-
-/***HEADER***/
-header {
+/*********************************************************** PAGE 1: HOME ************************************************************************/
+/***PAGE1: HEADER***/
+#page1 header {
     background: url('../img/desk.jpg');
     height: 800px; 
     background-size: cover; 
@@ -54,8 +54,8 @@ header p {
     line-height: 57px;
 }
 
-/***MAIN***/
-/***PORTFOLIO***/
+/***PAGE1: MAIN***/
+/***PAGE1: PORTFOLIO***/
 
 
 
@@ -87,7 +87,7 @@ header p {
     color: #A9A299;
     padding: 0 100px 0 0; 
 }
-/***ABOUT***/
+/***PAGE1: ABOUT***/
 
 #about {
     height: 700px;
@@ -121,9 +121,9 @@ header p {
     margin-bottom: 0;
 
 }
-/***FOOTER- CONTACT SECTION***/
+/***PAGE1: FOOTER- CONTACT SECTION***/
 
-/***GENERAL STYLE: COLOR***/
+/***PAGE1: GENERAL STYLE: COLOR***/
 
 #contact h2, p, h3, li, a {
     color: #F4F1EF;
@@ -131,7 +131,7 @@ header p {
 
 
 
-/***ITEMS ACCORDING TO HTML STRUCTURE***/
+/*** PAGE1: ITEMS ACCORDING TO HTML STRUCTURE***/
 
 #contact {
     background-color:  #857885;
@@ -170,7 +170,7 @@ header p {
 }
 
 
-/***COPYRIGHT***/ 
+/***PAGE1: COPYRIGHT***/ 
 
 #copyright {
     font-size: 18px; 
@@ -178,3 +178,125 @@ header p {
     padding: 70px 20px 0 20px; 
 
 }
+
+
+/*************************************************** PAGE234: ROGUE PICKINGS/ JUBILEE AUSTEN / HOLSTEE MANIFESTO ********************************************/
+/*** Common styles for pages 2,3 and 4 . see below for specific styles for each page ***/
+/*** PAGE234: HEADER ***/
+.page234 {
+    background-color: #F4F1EF;
+}
+
+.page234 header {
+    background-color: #F4F1EF;
+}
+
+.page234 header {
+    height: 60px; 
+    margin-top: -30px;
+    padding-top: 0; 
+}
+
+.page234 li {
+    color: #857885;
+    float: right; 
+    font-size: 20px;   
+    list-style: none; 
+    padding: 20px 40px 0 0;
+}
+
+/*** PAGE234: MAIN ***/
+/*** IMAGE STYLE ***/
+
+.page234 img {
+    border: 2px solid #eae5e1;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px; 
+    width: 70%; 
+}
+
+/*** TEXT STYLE ***/
+
+.page234 .full-width{
+    background-color: white; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 70%
+}
+
+
+.page234 h2 {
+    color: #857885;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 20px 25px 0 10px; 
+}
+
+.page234 p {
+    color: #857885;
+    font-size: 18px; 
+    line-height: 27px; 
+    padding: 0 20px 100px 10px; 
+    text-align: justify; 
+}
+/***#right {
+    padding: 0 0 100px 0; 
+} ***/
+
+/*** PAGE234: FOOTER ***/
+
+.page234 footer {
+    height: 100px;
+    background-color: #F4F1EF;
+}
+.page234 footer p {
+    color: #857885;
+    padding: 60px 20px 0 20px; 
+    text-align: center; 
+}
+
+/**** SPECIFIC STYLE FOR PAGE 2: ROGUE PICKINGS *********************/ 
+
+#page2 .full-width {
+    height: 310px; 
+    border-bottom: 2px solid #eae5e1;  
+    border-left: 2px solid #eae5e1;  
+    border-right: 2px solid #eae5e1;  
+}
+
+
+/**** SPECIFIC STYLE FOR PAGE 3: JUBILEE AUSTEN *********************/ 
+
+
+#page3 .full-width {
+    height: 320px;  
+
+}
+
+
+
+
+
+/***** SPECIFIC STYLE FOR PAGE 4: HOLSTEE MANIFESTO *****************/
+
+#page4 .full-width {
+    height: 570px; 
+    }
+     
+#page4 .half-width {
+    width: 500px; 
+}
+
+#page4 p {
+    padding-bottom: 0px; 
+} 
+#page4 a {
+    color: #857885;
+    text-decoration: none; 
+}
+
+
