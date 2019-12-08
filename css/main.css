@@ -1,35 +1,59 @@
 /**********************************************************PAGE1: GLOBAL STYLES ********************************************************************/
-
+/**** MOBILE STYLE FIRST ***/ 
+html {
+    font-size: 16px; 
+}
 body {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
-#copyright, #about, footer {
-    clear:both;
+.container {
+	display:flex;
+	justify-content: center; 
+	align-items: center; 
+	flex-flow: row wrap; 
+    max-width:  1450px;  /******max-width for desktop*****/
 }
+
 
 .full-width {
-    clear: both;
+    width: 100%; 
+    display: flex; 
+	align-items: center;
+	justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 30px; 
 }
 
 .half-width {
-    float: left; 
-    width: 700px; 
+    display: flex; 
+	align-items: center;
+	justify-content: center;
+    flex-flow: row wrap; 
+    width: 100%;
 }
 
 .third-width {
-    float: left;
-    width: 33.33333%;
+    display: flex; 
+	align-items: center;
+	justify-content: center;
+    flex-flow: row wrap; 
+    width: 100%;
 }
 
-
+footer {
+    width: 100%; 
+}
 
 /*********************************************************** PAGE 1: HOME ************************************************************************/
 /***PAGE1: HEADER***/
 #page1 header {
     background: url('../img/desk.jpg');
-    height: 800px; 
+    height: 680px; 
     background-size: cover; 
     margin-top: 0;
     padding-top: 0;
@@ -40,14 +64,14 @@ body {
 h1 {
     color: #857885;
     font-family: 'Roboto Slab', serif;
-    font-size: 60px;
-    padding: 270px 150px 0px 150px;
+    font-size: 3.75em;
+    padding: 200px 150px 0px 150px;
     text-align: center;  
 }
 
 header p {
     color: #A9A299;
-    font-size: 48px; 
+    font-size: 2em;  
     padding: 0 280px; 
     text-align: center;
     margin: 0 auto; 
@@ -57,42 +81,53 @@ header p {
 /***PAGE1: MAIN***/
 /***PAGE1: PORTFOLIO***/
 
-
-
 #portfolio {
-    height: 1450px; 
-} 
+    display: flex; 
+	align-items: center;
+	justify-content: center;
+    flex-flow: row wrap; 
+}
+
 #portfolio h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     color: #857885;
-    padding: 50px 0 100px 0;
-    text-align: center;
-    
+    padding: 20px 0 18px 0;
+    font-size: 1.5em; 
+    width: 100%; 
+    text-align: center; 
 
 }
 #portfolio img {
     border: 1px solid #b7b7b7;
-    margin: 0 50px 50px 100px; 
+    margin-bottom: 20px; 
 }
 
 #portfolio h3 {
     color: #857885;
     font-weight: bold; 
-    font-size: 24px; 
-    margin: 0 auto; 
+    font-size: 1.5em; 
+    margin: 0 auto;
+    width: 550px;
+    padding: 20px 0 30px 0; 
 }
 
 #portfolio p {
     color: #A9A299;
-    padding: 0 100px 0 0; 
+    width: 550px; 
+    margin-top:0; 
+}
+
+.description {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 50px; 
 }
 /***PAGE1: ABOUT***/
 
 #about {
-    height: 700px;
     background-color: #F4F1EF;
     margin: 0 auto; 
+    margin-bottom: 0; 
     
 }
 
@@ -100,8 +135,8 @@ header p {
     color: #857885;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    padding: 50px 0 50px 0;
-    text-align: center;
+    padding: 50px 0 20px 0;
+    text-align: center; 
 }
 
 #about img {
@@ -112,14 +147,13 @@ header p {
 
 #passion {
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 40px;
+    color: #857885;
 }
 
 #about p {
     color: #857885;
-    padding: 0 120px 0 25px; 
-    margin-bottom: 0;
-
+    padding: 0 180px 40px 240px; 
 }
 /***PAGE1: FOOTER- CONTACT SECTION***/
 
@@ -135,22 +169,21 @@ header p {
 
 #contact {
     background-color:  #857885;
-    height: 500px;
     text-align: center;
-    
 }
 
 #contact h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     margin: 0 auto;
 }
 
 #contact h3 {
     font-weight: bold;
     text-align: center;
-    padding: 0 25px 25px 25px; 
+    width: 100%; 
+    margin: 50px 0 0 0; 
 }
 
 #contact a {
@@ -159,10 +192,12 @@ header p {
 #contact p {
     line-height: 40px;
     padding: 0 75px;
+    margin-top: 20px; 
 }
 
 #contact ul {
     list-style: none; 
+    margin-top: 20px;
 }
 #contact ul li {
     display: inline-block;
@@ -175,9 +210,10 @@ header p {
 #copyright {
     font-size: 18px; 
     text-align: center;
-    padding: 70px 20px 0 20px; 
+    padding: 40px 0 10px 0; 
 
 }
+
 
 
 /*************************************************** PAGE234: ROGUE PICKINGS/ JUBILEE AUSTEN / HOLSTEE MANIFESTO ********************************************/
@@ -189,20 +225,14 @@ header p {
 
 .page234 header {
     background-color: #F4F1EF;
-}
-
-.page234 header {
-    height: 60px; 
-    margin-top: -30px;
-    padding-top: 0; 
+    width: 100%;
 }
 
 .page234 li {
     color: #857885;
-    float: right; 
-    font-size: 20px;   
+    font-size: 1.25em;   
     list-style: none; 
-    padding: 20px 40px 0 0;
+    padding: 40px 40px 0 0;
 }
 
 /*** PAGE234: MAIN ***/
@@ -213,86 +243,56 @@ header p {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 40px; 
-    width: 70%; 
+    margin-top: 40px;
+    width: 80%; 
 }
 
 /*** TEXT STYLE ***/
 
-.page234 .full-width{
-    background-color: white; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 70%
+.page234 ul {
+    display: flex; 
+    justify-content: flex-end;
 }
 
+.page234 li{
+    display: flex;
+    
+}
 
 .page234 h2 {
     color: #857885;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px; 
+    font-size: 1.2em; 
     font-weight: bold;
-    padding: 20px 25px 0 10px; 
+    padding:10px 25px 0 10px; 
 }
 
 .page234 p {
     color: #857885;
-    font-size: 18px; 
+    font-size: 1.125em; 
     line-height: 27px; 
-    padding: 0 20px 100px 10px; 
-    text-align: justify; 
+    padding: 0 100px 20px 100px;  
 }
-/***#right {
-    padding: 0 0 100px 0; 
-} ***/
 
 /*** PAGE234: FOOTER ***/
 
 .page234 footer {
-    height: 100px;
     background-color: #F4F1EF;
 }
 .page234 footer p {
     color: #857885;
+    font-size: 1em; 
     padding: 60px 20px 0 20px; 
     text-align: center; 
 }
 
-/**** SPECIFIC STYLE FOR PAGE 2: ROGUE PICKINGS *********************/ 
-
-#page2 .full-width {
-    height: 310px; 
-    border-bottom: 2px solid #eae5e1;  
-    border-left: 2px solid #eae5e1;  
-    border-right: 2px solid #eae5e1;  
-}
-
-
-/**** SPECIFIC STYLE FOR PAGE 3: JUBILEE AUSTEN *********************/ 
-
-
-#page3 .full-width {
-    height: 320px;  
-
-}
-
-
-
-
-
 /***** SPECIFIC STYLE FOR PAGE 4: HOLSTEE MANIFESTO *****************/
 
-#page4 .full-width {
-    height: 570px; 
-    }
-     
-#page4 .half-width {
-    width: 500px; 
+#page4 h2 {
+   padding-left: 150px;
 }
-
 #page4 p {
-    padding-bottom: 0px; 
+    padding: 0 150px 0 150px;
 } 
 #page4 a {
     color: #857885;
@@ -300,3 +300,106 @@ header p {
 }
 
 
+
+
+
+/****************************************************    MEDIA QUERIES *********************************************************************/
+
+
+/***** TABLET SIZE *********/
+
+@media all and (min-width: 768px){
+
+    /**** PAGE 1 ****/ 
+    #about img {
+        margin: 0; 
+    }
+    #passion {
+        width: 100%; 
+        padding-left: 210px;  
+    }
+    #about p {
+        padding-left: 210px; 
+        padding-right: 210px; 
+    }
+}
+
+
+
+/***** DESKTOP SIZE ********/
+@media only screen and (min-width: 1200px) {
+
+    /**** PAGE 1*****/
+
+    .half-width {
+        width: 50%; 
+    }
+    .third-width {
+        width: 30%; 
+    }   
+    .description {
+        border-bottom: none; 
+    }
+    #portfolio h3, #portfolio p{
+        width: 90%; 
+    }
+    #about img {
+        margin: 0 0 50px 0; 
+    }
+    #passion {
+        padding: 30px 50px 0 40px; 
+        width: 100%; 
+    }
+    #about p {
+        padding: 20px 150px 160px 40px;        
+    } 
+    #contact p {
+        padding: 0; 
+        margin: 0; 
+    }
+
+/*** PAGE 234*****/
+
+    .page234 .full-width{
+        display: flex; 
+        align-items: flex-start;
+    }
+    .page234 img {
+        width: 90%;
+    }
+    .page234 h2 {
+        padding: 10px 0 30px 0; 
+        margin: 0; 
+        width: 100%; 
+    }
+    .page234 p {
+    margin: 0; 
+    padding:0 40px 0 0; 
+    }
+    #right {
+        padding: 0;
+    }
+    .page234 footer p {
+        padding: 100px 0 20px 0; 
+        width: 90%;
+        font-size: 0.75em; 
+        align-items: flex-start;
+    }
+
+/********* PAGE 4 HOLSTEE MANIFESTO **********/
+
+    #page4 .full-width{
+        align-items: flex-start; 
+    }
+    #page4 img {
+        padding-top: 0; 
+        margin-top: 0; 
+    }
+    #page4 h2, #page4 p {
+    padding: 0 100px 20px 30px; 
+    }
+    #page4 footer p {
+        padding-top: 100px; 
+        font-size: 0.75em;
+    }
+}
